@@ -63,9 +63,8 @@ Ensure you have the following installed:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/singhsanket143/Basic-chat-app.git
+git remote add origin https://github.com/ZBS-1910/Basic-ChatApp.git
 ```
-
 2. Install dependencies:
 ```bash
 cd Basic-chat-app
@@ -76,6 +75,7 @@ npm install
 Create a `.env` file in the root directory with the following variables:
 ```
 MONGODB_URI=your_mongodb_connection_string
+eg:- MONGODB_URI=mongodb://localhost:27017/
 PORT=3000
 ```
 
